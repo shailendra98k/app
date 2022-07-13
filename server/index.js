@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 8000;
 app.get('/api/',(req,res)=>{
-    res.send("Hello Backend");
+    res.send("Hello Neetu");
 })
 
 app.listen(PORT, (err)=>{
