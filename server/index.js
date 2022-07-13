@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 8000;
 app.get('/api/',(req,res)=>{
-    res.send("Hello Neetu");
+    res.send("Hello Neetu.. Soory for delay...");
 })
 
 app.listen(PORT, (err)=>{
